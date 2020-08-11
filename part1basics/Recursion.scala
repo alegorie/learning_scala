@@ -16,7 +16,7 @@ object Recursion extends App {
 
   // 2. isPrime function with tailrec implementation
   def isPrime(n: Int): Boolean = {
-    @tailrechttps://github.com/alegorie/learning_scala.git
+    @tailrec
     def isPrimeTailrec(t: Int, stillPrime: Boolean): Boolean = {
       if (!stillPrime) false
       else if (t <= 1) true
